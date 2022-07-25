@@ -1,0 +1,41 @@
+.form_container {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+
+}
+
+.form_first_name,
+.form_last_name,
+.form_email,
+.form_btn {
+    margin: 20px;
+
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    background: rgba(255, 255, 255, .3);
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+button:hover {
+    background: #b2e0df
+}

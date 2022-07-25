@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.main_rapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #b2e0df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.search-container {
+
+    width: 30%;
+    background: #fff;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-right: 30px;
+    margin-left: 150px;
+
+
+
+
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover>.search-input {
+    width: 100%;
+}
+
+.search-container .search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+#select {
+    align-self: self-end;
+    margin-right: 150px;
+    border-radius: 15px;
+}
+
+.search-container .search-btn .fas {
+    color: #5cbdbb;
+
+}
+
+.search-container:hover {
+    animation: hoverShake 0.15s linear 3;
+}
+
+.users {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 80%;
+
+
+
+}
+
+.users_img {
+    margin-top: 10px;
+}
+
+figure.user_contact {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+    min-width: 80%;
+
+    width: 80%;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2C3447;
+    padding: 5px;
+    background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: inherit;
+}
+
+
+
+figure.user_contact figcaption {
+    width: 100%;
+}
+
+
+figure.user_contact h2,
+figure.user_contact h4 {
+    font-weight: 300;
+}
+
+figure.user_contact h2 {
+    color: #ffffff;
+}
+
+figure.user_contact h4 {
+    color: #a6a6a6;
+}
+
+figure.user_contact .profile {
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    border: solid 2px #A6A57A;
+}
+
+
+
+.users_name_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 35px;
+}
+
+
+
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.abc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.select {
+    margin-top: 5px;
+    margin-left: 50px;
+}
